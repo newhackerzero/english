@@ -240,7 +240,7 @@ public class PromptTuningTests
     }
 
     [Fact]
-    public async Task ExplainNotEnglishPrompt()
+    public async Task ExplainNotVietnamesePrompt()
     {
         using var client = new HttpClient();
         client.Timeout = TimeSpan.FromSeconds(300);
@@ -249,10 +249,10 @@ public class PromptTuningTests
         var input = "通关后天赋值";
 
         var result = await TranslationService.TranslateSplitAsync(config, input, client, DefaultTestTextFile(),
-            "Explain your reasinging in a <explain> tag, why is the result is not in english." +
-            "Show in a <prompt> tag, An updated system prompt that would have translated this to english.");
+            "Explain your reasinging in a <explain> tag, why is the result is not in vietnamese." +
+            "Show in a <prompt> tag, An updated system prompt that would have translated this to vietnamese.");
 
-        File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainNotEnglishPrompt.txt", result.Result);
+        File.WriteAllText($"{workingDirectory}/TestResults/2.ExplainNotVietnamesePrompt.txt", result.Result);
     }
 
     [Fact]

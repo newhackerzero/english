@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using System.Reflection.Emit;
 
-namespace EnglishPatch.DynamicStrings;
+namespace VietnamesePatch.DynamicStrings;
 
 public class StringTranspiler
 {

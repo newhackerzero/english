@@ -1,7 +1,7 @@
 ﻿using BepInEx;
 using BepInEx.Configuration;
 using BepInEx.Logging;
-using EnglishPatch.Support;
+using VietnamesePatch.Support;
 using HarmonyLib;
 using SharedAssembly.TextResizer;
 using System;
@@ -12,7 +12,7 @@ using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace EnglishPatch.Sprites;
+namespace VietnamesePatch.Sprites;
 
 [BepInPlugin($"{MyPluginInfo.PLUGIN_GUID}.SpriteReplacerV2", "SpriteReplacerV2", MyPluginInfo.PLUGIN_VERSION)]
 public class SpriteReplacerV2Plugin : BaseUnityPlugin

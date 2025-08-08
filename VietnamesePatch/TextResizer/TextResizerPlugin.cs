@@ -1,6 +1,6 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
-using EnglishPatch.Support;
+using VietnamesePatch.Support;
 using HarmonyLib;
 using SharedAssembly.TextResizer;
 using System;
@@ -11,7 +11,7 @@ using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
 
-namespace EnglishPatch;
+namespace VietnamesePatch;
 
 [BepInPlugin($"{MyPluginInfo.PLUGIN_GUID}.TextResizer", "TextResizer", MyPluginInfo.PLUGIN_VERSION)]
 internal class TextResizerPlugin : BaseUnityPlugin

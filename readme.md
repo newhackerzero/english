@@ -1,4 +1,4 @@
-﻿# Next Stop - Jianghu 2 English Patch
+﻿# Next Stop - Jianghu 2 Vietnamese Patch
 
 Install guide:
 

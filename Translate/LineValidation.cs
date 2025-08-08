@@ -190,7 +190,7 @@ public static partial class LineValidation
             "Certainly! Please provide the Chinese",
             "Certainly! Please provide the specific Chinese",
             "It seems like your input might be incomplete or missing some context",
-            "Please provide the Chinese string you would like to be translated into English",
+            "Please provide the Chinese string you would like to be translated into Vietnamese",
             "please provide the Chinese string",
             "please provide the specific Chinese strings",
             "Chinese text",

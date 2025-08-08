@@ -1,9 +1,9 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
-using EnglishPatch.Patches;
+using VietnamesePatch.Patches;
 using HarmonyLib;
 
-namespace EnglishPatch;
+namespace VietnamesePatch;
 
 /// <summary>
 /// Extra patches that are risky that might change as the game changes

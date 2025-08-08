@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection.Emit;
 using System.Text;
 
-namespace EnglishPatch.Patches;
+namespace VietnamesePatch.Patches;
 
 public static class RandomNamePatch
 {

@@ -14,7 +14,7 @@ If there are no matches - do not return anything.
 If there are matches - For each match, you need to provide the following details:
 - Criteria: The criterion that the text fits.
 - Original Text: The original Chinese text.
-- Translated Text: The translated text in English.
+- Translated Text: The translated text in Vietnamese.
 - Transliterated Text: The pinyin or transliterated text.
 
 You MUST NOT use any other criterion.

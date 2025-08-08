@@ -8,7 +8,7 @@ using UnityEngine;
 using UnityEngine.XR;
 using XUnity.ResourceRedirector;
 
-namespace EnglishPatch.Sprites
+namespace VietnamesePatch.Sprites
 {
     [BepInPlugin($"{MyPluginInfo.PLUGIN_GUID}.SpriteReplacer", "SpriteReplacer", MyPluginInfo.PLUGIN_VERSION)]
     [BepInDependency("gravydevsupreme.xunity.resourceredirector")]

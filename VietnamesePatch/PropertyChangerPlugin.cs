@@ -8,7 +8,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace EnglishPatch;
+namespace VietnamesePatch;
 
 [BepInPlugin($"{MyPluginInfo.PLUGIN_GUID}.PropertyChangerPlugin", "PropertyChangerPlugin", MyPluginInfo.PLUGIN_VERSION)]
 public class PropertyChangerPlugin : BaseUnityPlugin

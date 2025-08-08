@@ -1,6 +1,6 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
-using EnglishPatch.Support;
+using VietnamesePatch.Support;
 using HarmonyLib;
 using SweetPotato;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using LitJson;
 using TMPro;
 using UnityEngine;
 
-namespace EnglishPatch;
+namespace VietnamesePatch;
 
 /// <summary>
 /// Put dicey stuff in here that might crash the plugin - so it doesnt crash the existing plugins

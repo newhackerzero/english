@@ -6,7 +6,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace EnglishPatch.Patches;
+namespace VietnamesePatch.Patches;
 
 public static class ToolsPatch
 {

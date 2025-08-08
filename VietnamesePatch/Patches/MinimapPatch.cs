@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace EnglishPatch.Patches;
+namespace VietnamesePatch.Patches;
 
 [HarmonyPatch(typeof(MainView))]
 [HarmonyPatch("RefreshDateTimeText")]

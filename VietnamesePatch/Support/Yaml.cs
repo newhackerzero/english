@@ -4,7 +4,7 @@ using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 using YamlDotNet.Serialization.TypeInspectors;
 
-namespace EnglishPatch.Support;
+namespace VietnamesePatch.Support;
 
 public class Yaml
 {

@@ -3,7 +3,7 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 
-namespace EnglishPatch;
+namespace VietnamesePatch;
 
 // This component will monitor the text changes
 public class TextChangedBehaviour : MonoBehaviour

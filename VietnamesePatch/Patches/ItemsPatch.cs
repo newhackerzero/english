@@ -7,7 +7,7 @@ using System.Text;
 using TMPro;
 using UnityEngine.UI;
 
-namespace EnglishPatch.Patches;
+namespace VietnamesePatch.Patches;
 
 public static class ItemsPatch
 {
