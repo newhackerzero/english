@@ -1,6 +1,6 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
-using EnglishPatch.DynamicStrings;
+using VietnamesePatch.DynamicStrings;
 using HarmonyLib;
 using SweetPotato;
 using System;
@@ -11,7 +11,7 @@ using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
 
-namespace EnglishPatch.PrefabText;
+namespace VietnamesePatch.PrefabText;
 
 /// <summary>
 /// Used to get hardcoded strings out of prefabs so we can translate them

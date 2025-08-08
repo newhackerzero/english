@@ -1,7 +1,7 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
 using CSVHelper;
-using EnglishPatch.Patches;
+using VietnamesePatch.Patches;
 using HarmonyLib;
 using SweetPotato;
 using System;
@@ -15,7 +15,7 @@ using TMPro;
 using UnityEngine;
 using static TMPro.TMP_Settings;
 
-namespace EnglishPatch;
+namespace VietnamesePatch;
 
 /// <summary>
 /// Swaps the Text db asset in

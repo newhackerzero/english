@@ -2,7 +2,7 @@
 using SweetPotato;
 using UnityEngine;
 
-namespace EnglishPatch.Patches;
+namespace VietnamesePatch.Patches;
 
 /// <summary>
 /// Fixes the Quest Icon being too far to the right because the multiplier for character size

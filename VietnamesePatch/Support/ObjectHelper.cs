@@ -2,7 +2,7 @@
 using System.Text;
 using UnityEngine;
 
-namespace EnglishPatch.Support;
+namespace VietnamesePatch.Support;
 public static class ObjectHelper
 {
     public static string GetObjectPath(this object obj)

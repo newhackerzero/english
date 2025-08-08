@@ -163,11 +163,11 @@ public class UtilityTests
     }
 
     [Theory]
-    [InlineData("{Hello你好}", true)]   // Test with both English and CJK characters
-    [InlineData("{Hello 你好}", true)]   // Test with both English and CJK characters
+    [InlineData("{Hello你好}", true)]   // Test with both Latin and CJK characters
+    [InlineData("{Hello 你好}", true)]   // Test with both Latin and CJK characters
     [InlineData("{你好}", true)]         // Test with only CJK characters
-    [InlineData("{Hello}", false)]      // Test with only English characters (should fail)
-    [InlineData("{Hello123}", false)]   // Test with English characters and numbers (should fail)
+    [InlineData("{Hello}", false)]      // Test with only Latin characters (should fail)
+    [InlineData("{Hello123}", false)]   // Test with Latin characters and numbers (should fail)
     [InlineData("{ }", false)]          // Test with empty curly braces (should fail)
     [InlineData("{}", false)]          // Test with empty curly braces (should fail)
     [InlineData("{0}", false)]          // Test with number

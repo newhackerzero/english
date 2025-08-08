@@ -1,6 +1,6 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
-using EnglishPatch.Support;
+using VietnamesePatch.Support;
 using HarmonyLib;
 using SharedAssembly.DynamicStrings;
 using System;
@@ -10,7 +10,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 
-namespace EnglishPatch.DynamicStrings;
+namespace VietnamesePatch.DynamicStrings;
 
 /// <summary>
 /// Used to replace hardcoded strings in IL

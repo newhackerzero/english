@@ -1,6 +1,6 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
-using EnglishPatch.Support;
+using VietnamesePatch.Support;
 using Mono.Cecil;
 using Mono.Cecil.Cil;
 using SharedAssembly.DynamicStrings;
@@ -10,7 +10,7 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace EnglishPatch.DynamicStrings;
+namespace VietnamesePatch.DynamicStrings;
 
 /// <summary>
 /// Used to replace hardcoded strings in IL
@@ -165,7 +165,7 @@ public class StringDumperPlugin : BaseUnityPlugin
         //    && !currentString.Contains("size")
         //    && !currentString.Contains("color"))
         //{
-        //    //Logger.LogError($"HasEnglish: true");
+        //    //Logger.LogError($"HasVietnamese: true");
         //    return true;
         //}
 

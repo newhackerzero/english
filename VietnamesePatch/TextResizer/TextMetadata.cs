@@ -1,7 +1,7 @@
 ﻿using TMPro;
 using UnityEngine;
 
-namespace EnglishPatch;
+namespace VietnamesePatch;
 
 public class TextMetadata : MonoBehaviour
 {

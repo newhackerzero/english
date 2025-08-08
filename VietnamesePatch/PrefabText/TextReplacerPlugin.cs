@@ -10,7 +10,7 @@ using TMPro;
 using UnityEngine;
 using XUnity.ResourceRedirector;
 
-namespace EnglishPatch.PrefabText;
+namespace VietnamesePatch.PrefabText;
 
 [BepInPlugin($"{MyPluginInfo.PLUGIN_GUID}.TextReplacer", "TextReplacer", MyPluginInfo.PLUGIN_VERSION)]
 [BepInDependency("gravydevsupreme.xunity.resourceredirector")]

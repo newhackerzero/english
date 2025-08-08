@@ -6,10 +6,10 @@ public class ModConfigFile
 {
     public long PublishedFileId { get; set; } = 3432636639;
     public string FileName { get; set; } = string.Empty;
-    public string Title { get; set; } = "English Patch";
+    public string Title { get; set; } = "Vietnamese Patch";
     public string ContentFolder { get; set; } = ModHelper.ContentFolder;
     public string ChangeNote { get; set; } = string.Empty;
-    public string Description { get; set; } = "English Translation using an LLM\n Resizer required to fit text. \nCome hang in our Discord: https://discord.gg/sqXd5ceBWT";
+    public string Description { get; set; } = "Vietnamese Translation using an LLM\n Resizer required to fit text. \nCome hang in our Discord: https://discord.gg/sqXd5ceBWT";
     public string PreviewUrl { get; set; } = "H:\\Xyzj2OverLlm\\Files\\Mod\\preview.png";
     public string MetaData { get; set; } = "";
     public int Visibility { get; set; } = 0;
@@ -19,7 +19,7 @@ public class ModConfigFile
 
 public static class ModHelper
 {
-    public const string ContentFolder = "LashEnglishPatch";
+    public const string ContentFolder = "LashVietnamesePatch";
 
     public static string CalculateVersionNumber() => DateTime.Now.ToString("yyyy.MM.dd.HH.mm");
 
